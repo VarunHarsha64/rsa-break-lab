@@ -1,0 +1,1412 @@
+[
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 100,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0095
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 100,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0075
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 100,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0052
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 100,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0049
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 100,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0064
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 120,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0057
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 120,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0049
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 120,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0065
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 120,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0051
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 120,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0059
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 128,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0045
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 128,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0082
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 128,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0046
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 128,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0051
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 128,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1,
+    "duration_ms": 0.0057
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 132,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 6,
+    "duration_ms": 0.0117
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 132,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 25,
+    "duration_ms": 0.0248
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 132,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 34,
+    "duration_ms": 0.0315
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 132,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 40,
+    "duration_ms": 0.0357
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 132,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 32,
+    "duration_ms": 0.0293
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 135,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 2361,
+    "duration_ms": 1.9856
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 135,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1625,
+    "duration_ms": 1.2873
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 135,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 6,
+    "duration_ms": 0.0097
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 135,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 226,
+    "duration_ms": 0.1785
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 135,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 107,
+    "duration_ms": 0.0855
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 137,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1576,
+    "duration_ms": 1.2145
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 137,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1163,
+    "duration_ms": 0.943
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 137,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 11393,
+    "duration_ms": 9.1883
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 137,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 21615,
+    "duration_ms": 17.0028
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 137,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 4012,
+    "duration_ms": 3.2298
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 139,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 20457,
+    "duration_ms": 15.5603
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 139,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 127727,
+    "duration_ms": 101.3935
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 139,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 763449,
+    "duration_ms": 684.3155
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 139,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 17237,
+    "duration_ms": 13.375
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 139,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 237529,
+    "duration_ms": 187.1173
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 141,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 2458588,
+    "duration_ms": 2254.9847
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 141,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 3697907,
+    "duration_ms": 3058.0251
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 141,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 1067936,
+    "duration_ms": 855.814
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 141,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 259353,
+    "duration_ms": 214.1318
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 141,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 558613,
+    "duration_ms": 479.1038
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 143,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "iterations": 4959213,
+    "duration_ms": 4084.9704
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 143,
+    "trial": 1,
+    "n_bits": 512,
+    "success": false,
+    "iterations": 8000000,
+    "duration_ms": 6468.1141
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 143,
+    "trial": 2,
+    "n_bits": 512,
+    "success": false,
+    "iterations": 8000000,
+    "duration_ms": 6368.0321
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 143,
+    "trial": 3,
+    "n_bits": 512,
+    "success": false,
+    "iterations": 8000000,
+    "duration_ms": 6496.2638
+  },
+  {
+    "attack": "fermat",
+    "parameter": "gap_bits",
+    "value": 143,
+    "trial": 4,
+    "n_bits": 512,
+    "success": false,
+    "iterations": 8000000,
+    "duration_ms": 6545.8386
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 150,
+    "trial": 0,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 104,
+    "duration_ms": 0.1723
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 150,
+    "trial": 1,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 96,
+    "duration_ms": 0.1582
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 150,
+    "trial": 2,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 84,
+    "duration_ms": 0.1507
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 150,
+    "trial": 3,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 88,
+    "duration_ms": 0.1349
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 150,
+    "trial": 4,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 78,
+    "duration_ms": 0.1374
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 200,
+    "trial": 0,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 114,
+    "duration_ms": 0.1947
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 200,
+    "trial": 1,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 118,
+    "duration_ms": 0.1893
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 200,
+    "trial": 2,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 124,
+    "duration_ms": 0.203
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 200,
+    "trial": 3,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 120,
+    "duration_ms": 0.1819
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 200,
+    "trial": 4,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 122,
+    "duration_ms": 0.1818
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 230,
+    "trial": 0,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 136,
+    "duration_ms": 0.2258
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 230,
+    "trial": 1,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 142,
+    "duration_ms": 0.22
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 230,
+    "trial": 2,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 124,
+    "duration_ms": 0.1923
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 230,
+    "trial": 3,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 136,
+    "duration_ms": 0.2187
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 230,
+    "trial": 4,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 146,
+    "duration_ms": 0.2157
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 250,
+    "trial": 0,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 150,
+    "duration_ms": 0.2392
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 250,
+    "trial": 1,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 134,
+    "duration_ms": 0.2494
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 250,
+    "trial": 2,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 150,
+    "duration_ms": 0.2312
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 250,
+    "trial": 3,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 150,
+    "duration_ms": 0.2275
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 250,
+    "trial": 4,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 156,
+    "duration_ms": 0.2426
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 254,
+    "trial": 0,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 160,
+    "duration_ms": 0.2493
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 254,
+    "trial": 1,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 162,
+    "duration_ms": 0.296
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 254,
+    "trial": 2,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 146,
+    "duration_ms": 0.2256
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 254,
+    "trial": 3,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 150,
+    "duration_ms": 0.2265
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 254,
+    "trial": 4,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 134,
+    "duration_ms": 0.2259
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 256,
+    "trial": 0,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 550,
+    "duration_ms": 1.3585
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 256,
+    "trial": 1,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 591,
+    "duration_ms": 2.0488
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 256,
+    "trial": 2,
+    "n_bits": 1024,
+    "success": true,
+    "convergents_tried": 144,
+    "duration_ms": 0.2549
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 256,
+    "trial": 3,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 601,
+    "duration_ms": 1.4261
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 256,
+    "trial": 4,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 624,
+    "duration_ms": 1.6437
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 260,
+    "trial": 0,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 602,
+    "duration_ms": 1.4235
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 260,
+    "trial": 1,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 604,
+    "duration_ms": 2.3031
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 260,
+    "trial": 2,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 597,
+    "duration_ms": 1.6465
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 260,
+    "trial": 3,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 566,
+    "duration_ms": 1.547
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 260,
+    "trial": 4,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 601,
+    "duration_ms": 1.9027
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 270,
+    "trial": 0,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 586,
+    "duration_ms": 3.5333
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 270,
+    "trial": 1,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 617,
+    "duration_ms": 1.8597
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 270,
+    "trial": 2,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 572,
+    "duration_ms": 1.7798
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 270,
+    "trial": 3,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 595,
+    "duration_ms": 1.5667
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 270,
+    "trial": 4,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 611,
+    "duration_ms": 1.5742
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 300,
+    "trial": 0,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 610,
+    "duration_ms": 1.6613
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 300,
+    "trial": 1,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 617,
+    "duration_ms": 1.5473
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 300,
+    "trial": 2,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 593,
+    "duration_ms": 1.3803
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 300,
+    "trial": 3,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 606,
+    "duration_ms": 1.5091
+  },
+  {
+    "attack": "wiener",
+    "parameter": "d_bits",
+    "value": 300,
+    "trial": 4,
+    "n_bits": 1024,
+    "success": false,
+    "convergents_tried": 600,
+    "duration_ms": 1.4143
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 1,
+    "trial": 0,
+    "n_bits": 512,
+    "success": false,
+    "duration_ms": 0.0077
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 1,
+    "trial": 1,
+    "n_bits": 512,
+    "success": false,
+    "duration_ms": 0.006
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 1,
+    "trial": 2,
+    "n_bits": 512,
+    "success": false,
+    "duration_ms": 0.0027
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 1,
+    "trial": 3,
+    "n_bits": 512,
+    "success": false,
+    "duration_ms": 0.0033
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 1,
+    "trial": 4,
+    "n_bits": 512,
+    "success": false,
+    "duration_ms": 0.0036
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 2,
+    "trial": 0,
+    "n_bits": 512,
+    "success": false,
+    "duration_ms": 0.1212
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 2,
+    "trial": 1,
+    "n_bits": 512,
+    "success": false,
+    "duration_ms": 0.1204
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 2,
+    "trial": 2,
+    "n_bits": 512,
+    "success": false,
+    "duration_ms": 0.1319
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 2,
+    "trial": 3,
+    "n_bits": 512,
+    "success": false,
+    "duration_ms": 0.1058
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 2,
+    "trial": 4,
+    "n_bits": 512,
+    "success": false,
+    "duration_ms": 0.1265
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 3,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.2393
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 3,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.2216
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 3,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.2199
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 3,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.2422
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 3,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.2119
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 4,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.2401
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 4,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.2158
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 4,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.2315
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 4,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.2632
+  },
+  {
+    "attack": "hastad",
+    "parameter": "num_ciphertexts",
+    "value": 4,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.2588
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 256,
+    "trial": 0,
+    "n_bits": 256,
+    "success": true,
+    "duration_ms": 0.0642
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 256,
+    "trial": 1,
+    "n_bits": 256,
+    "success": true,
+    "duration_ms": 0.0634
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 256,
+    "trial": 2,
+    "n_bits": 256,
+    "success": true,
+    "duration_ms": 0.0582
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 256,
+    "trial": 3,
+    "n_bits": 256,
+    "success": true,
+    "duration_ms": 0.0538
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 256,
+    "trial": 4,
+    "n_bits": 256,
+    "success": true,
+    "duration_ms": 0.0501
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 512,
+    "trial": 0,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.1147
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 512,
+    "trial": 1,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.1118
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 512,
+    "trial": 2,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.1136
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 512,
+    "trial": 3,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.1197
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 512,
+    "trial": 4,
+    "n_bits": 512,
+    "success": true,
+    "duration_ms": 0.1271
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 1024,
+    "trial": 0,
+    "n_bits": 1024,
+    "success": true,
+    "duration_ms": 0.2809
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 1024,
+    "trial": 1,
+    "n_bits": 1024,
+    "success": true,
+    "duration_ms": 0.4615
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 1024,
+    "trial": 2,
+    "n_bits": 1024,
+    "success": true,
+    "duration_ms": 0.2943
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 1024,
+    "trial": 3,
+    "n_bits": 1024,
+    "success": true,
+    "duration_ms": 0.2667
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 1024,
+    "trial": 4,
+    "n_bits": 1024,
+    "success": true,
+    "duration_ms": 0.276
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 2048,
+    "trial": 0,
+    "n_bits": 2048,
+    "success": true,
+    "duration_ms": 0.7491
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 2048,
+    "trial": 1,
+    "n_bits": 2048,
+    "success": true,
+    "duration_ms": 0.9195
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 2048,
+    "trial": 2,
+    "n_bits": 2048,
+    "success": true,
+    "duration_ms": 0.7789
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 2048,
+    "trial": 3,
+    "n_bits": 2048,
+    "success": true,
+    "duration_ms": 0.7727
+  },
+  {
+    "attack": "common_modulus",
+    "parameter": "n_bits",
+    "value": 2048,
+    "trial": 4,
+    "n_bits": 2048,
+    "success": true,
+    "duration_ms": 0.8028
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 5,
+    "trial": 0,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 7,
+    "duration_ms": 0.0261
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 5,
+    "trial": 1,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 7,
+    "duration_ms": 0.0236
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 5,
+    "trial": 2,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 7,
+    "duration_ms": 0.016
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 10,
+    "trial": 0,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 37,
+    "duration_ms": 0.0592
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 10,
+    "trial": 1,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 37,
+    "duration_ms": 0.0594
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 10,
+    "trial": 2,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 37,
+    "duration_ms": 0.0572
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 20,
+    "trial": 0,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 172,
+    "duration_ms": 0.2427
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 20,
+    "trial": 1,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 172,
+    "duration_ms": 0.2413
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 20,
+    "trial": 2,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 172,
+    "duration_ms": 0.2582
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 40,
+    "trial": 0,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 742,
+    "duration_ms": 1.0431
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 40,
+    "trial": 1,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 742,
+    "duration_ms": 1.0463
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 40,
+    "trial": 2,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 742,
+    "duration_ms": 1.2286
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 80,
+    "trial": 0,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 3082,
+    "duration_ms": 4.6712
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 80,
+    "trial": 1,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 3082,
+    "duration_ms": 4.6379
+  },
+  {
+    "attack": "batch_gcd",
+    "parameter": "pool_size",
+    "value": 80,
+    "trial": 2,
+    "n_bits": 256,
+    "success": true,
+    "comparisons": 3082,
+    "duration_ms": 4.2837
+  }
+]

@@ -1,0 +1,6 @@
+{"attack": "hastad_broadcast", "details": {"combined_bit_length": 1488, "exact_root": true, "num_ciphertexts": 3, "num_targets": 3}, "duration_ms": 0.29278900001372676, "success": true, "timestamp": "2026-11-13T05:34:33"}
+{"attack": "fermat", "details": {"iterations": 1, "n_bits": 512}, "duration_ms": 0.025319999963357986, "success": true, "timestamp": "2026-11-13T05:34:33"}
+{"attack": "common_modulus", "details": {"n_bits": 1024, "recovered_message": 42}, "duration_ms": 0.32282899996971537, "success": true, "timestamp": "2026-11-13T05:34:33"}
+{"attack": "batch_gcd", "details": {"comparisons": 56, "num_compromised": 2, "pool_size": 12}, "duration_ms": 0.14571600002000196, "success": true, "timestamp": "2026-11-13T05:34:33"}
+{"attack": "fermat", "details": {"iterations": 2000000, "n_bits": 1023}, "duration_ms": 2619.794744000046, "success": false, "timestamp": "2026-11-13T05:34:36"}
+{"attack": "wiener", "details": {"convergents_tried": 40, "n_bits": 1023}, "duration_ms": 0.1110840000819735, "success": true, "timestamp": "2026-11-13T05:34:36"}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>RSA Break Lab &mdash; Live Cryptanalysis Demo</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%94%93%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>🔓 RSA Break Lab</h1>
+    <p>Five classic textbook attacks on deliberately weakened RSA keys &mdash; running for real, in your browser, via WebAssembly (Pyodide). This is the exact same Python source as the repository, not a recorded demo.</p>
+    <div class="badge-row">
+      <span class="badge">Fermat factorization</span>
+      <span class="badge">Wiener's attack</span>
+      <span class="badge">Hastad broadcast</span>
+      <span class="badge">Common modulus</span>
+      <span class="badge">Batch GCD</span>
+      <span class="badge"><a href="https://github.com/" id="repo-link" target="_blank" rel="noopener">View source on GitHub \u2197</a></span>
+    </div>
+    <div class="pyodide-status">
+      <span class="dot loading" id="pyodide-dot"></span>
+      <span id="pyodide-label">Loading Pyodide&hellip;</span>
+    </div>
+  </header>
+
+  <div class="panel">
+    <div class="tabs">
+      <button class="tab active" data-target="view-fermat">Fermat</button>
+      <button class="tab" data-target="view-wiener">Wiener</button>
+      <button class="tab" data-target="view-hastad">Hastad broadcast</button>
+      <button class="tab" data-target="view-cm">Common modulus</button>
+      <button class="tab" data-target="view-bgcd">Batch GCD</button>
+    </div>
+
+    <!-- Fermat -->
+    <div class="attack-view active" id="view-fermat">
+      <h2>Fermat factorization</h2>
+      <p class="desc">If <code>p</code> and <code>q</code> are abnormally close together, <code>n = p&times;q</code> can be written as a difference of squares and factored almost instantly by walking up from &radic;n. Drag the slider toward a <em>smaller</em> gap to watch the attack go from hopeless to instantaneous.</p>
+      <div class="controls">
+        <div class="slider-group">
+          <label for="fermat-gap">prime gap (bits):</label>
+          <input type="range" id="fermat-gap" min="4" max="60" value="8" step="2" />
+          <span class="value" id="fermat-gap-val">8</span>
+        </div>
+        <button class="run" id="fermat-run" disabled>Generate key &amp; attack</button>
+      </div>
+      <div class="console" id="fermat-console"><div class="line dim">Console output will appear here.</div></div>
+      <div class="result-banner" id="fermat-banner"></div>
+    </div>
+
+    <!-- Wiener -->
+    <div class="attack-view" id="view-wiener">
+      <h2>Wiener's attack</h2>
+      <p class="desc">If the private exponent <code>d</code> is smaller than roughly <code>(1/3)&middot;n<sup>0.25</sup></code>, it can be recovered from the continued-fraction expansion of <code>e/n</code> alone. For a 1024-bit <code>n</code> that bound is about 254 bits &mdash; cross it and the attack should start failing.</p>
+      <div class="controls">
+        <div class="slider-group">
+          <label for="wiener-dbits">|d| (bits):</label>
+          <input type="range" id="wiener-dbits" min="40" max="320" value="60" step="10" />
+          <span class="value" id="wiener-dbits-val">60</span>
+        </div>
+        <button class="run" id="wiener-run" disabled>Generate key &amp; attack</button>
+      </div>
+      <div class="console" id="wiener-console"><div class="line dim">Console output will appear here.</div></div>
+      <div class="result-banner" id="wiener-banner"></div>
+    </div>
+
+    <!-- Hastad -->
+    <div class="attack-view" id="view-hastad">
+      <h2>Hastad's broadcast attack</h2>
+      <p class="desc">Encrypt the <em>same</em> message under <code>e=3</code> to three or more recipients with different moduli, and the message pops right out via CRT + an integer cube root &mdash; no private key needed. Try fewer than 3 ciphertexts to see it fail.</p>
+      <div class="controls">
+        <div class="slider-group">
+          <label for="hastad-k">ciphertexts intercepted:</label>
+          <input type="range" id="hastad-k" min="1" max="5" value="3" step="1" />
+          <span class="value" id="hastad-k-val">3</span>
+        </div>
+        <button class="run" id="hastad-run" disabled>Broadcast &amp; attack</button>
+      </div>
+      <div class="console" id="hastad-console"><div class="line dim">Console output will appear here.</div></div>
+      <div class="result-banner" id="hastad-banner"></div>
+    </div>
+
+    <!-- Common modulus -->
+    <div class="attack-view" id="view-cm">
+      <h2>Common modulus attack</h2>
+      <p class="desc">Two "users" misconfigured to share one modulus <code>n</code>, each with their own exponent. Given both ciphertexts of the same message, Bezout's identity recovers the message with no factoring and no private key, regardless of modulus size.</p>
+      <div class="controls">
+        <div class="slider-group">
+          <label for="cm-bits">modulus size (bits):</label>
+          <input type="range" id="cm-bits" min="256" max="1024" value="512" step="256" />
+          <span class="value" id="cm-bits-val">512</span>
+        </div>
+        <button class="run" id="cm-run" disabled>Generate &amp; attack</button>
+      </div>
+      <div class="console" id="cm-console"><div class="line dim">Console output will appear here.</div></div>
+      <div class="result-banner" id="cm-banner"></div>
+    </div>
+
+    <!-- Batch GCD -->
+    <div class="attack-view" id="view-bgcd">
+      <h2>Batch GCD</h2>
+      <p class="desc">If two "independent" RSA keys secretly share one prime factor (low-entropy key generation on embedded devices has caused this in the real world), a single <code>gcd()</code> call breaks both &mdash; no factoring algorithm at all. Larger pools mean more pairwise comparisons.</p>
+      <div class="controls">
+        <div class="slider-group">
+          <label for="bgcd-pool">pool size:</label>
+          <input type="range" id="bgcd-pool" min="4" max="60" value="12" step="2" />
+          <span class="value" id="bgcd-pool-val">12</span>
+        </div>
+        <button class="run" id="bgcd-run" disabled>Generate pool &amp; attack</button>
+      </div>
+      <div class="console" id="bgcd-console"><div class="line dim">Console output will appear here.</div></div>
+      <div class="result-banner" id="bgcd-banner"></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2 style="margin-top:0;">Benchmark statistics</h2>
+    <p class="desc" style="margin-bottom:1.1rem;">From <code>benchmarks/run_benchmarks.py</code> &mdash; 5 trials per data point, committed to the repo so these numbers are reproducible, not cherry-picked. Full <a href="data/benchmark_results.csv">CSV</a> / <a href="data/benchmark_results.json">JSON</a> available for your report.</p>
+    <div class="charts-grid">
+      <div class="chart-card">
+        <h3>Fermat: time to factor vs. prime gap (512-bit n)</h3>
+        <canvas id="chart-fermat" height="220"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Wiener: success rate vs. |d| (1024-bit n)</h3>
+        <canvas id="chart-wiener" height="220"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Batch GCD: comparisons vs. pool size</h3>
+        <canvas id="chart-bgcd" height="220"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Educational cryptanalysis project &mdash; none of this code should be used for real encryption.<br />
+    Built with <a href="https://pyodide.org/" target="_blank" rel="noopener">Pyodide</a> &amp; <a href="https://www.chartjs.org/" target="_blank" rel="noopener">Chart.js</a>. MIT licensed.</p>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/pyodide/v0.29.3/full/pyodide.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

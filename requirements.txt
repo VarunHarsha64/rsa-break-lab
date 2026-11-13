@@ -1,0 +1,6 @@
+# Core library and CLI: zero dependencies (stdlib only, on purpose --
+# it also lets the browser demo run the exact same code in Pyodide).
+#
+# These are only needed for running tests / generating benchmark plots:
+pytest>=7.0
+matplotlib>=3.5

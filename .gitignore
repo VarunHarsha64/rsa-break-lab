@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Fresh runs regenerate these -- the committed copies under sample_data/
+# and benchmarks/results/ are intentionally checked in as reference output.
+logs/*.jsonl
+!sample_data/sample_attack_log.jsonl
+
+.DS_Store
